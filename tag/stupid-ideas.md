@@ -1,0 +1,4 @@
+---
+name: Stupid ideas
+image: ''
+---
