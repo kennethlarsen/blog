@@ -24,8 +24,8 @@ module.exports = function(environment) {
     },
 
     blog: {
-      title: 'empress-blog',
-      description: 'Static Blog System - Built with Ember',
+      title: 'Kenneth Larsen',
+      description: 'Frontend & things',
       coverImage: '/images/blog-cover.jpg',
 
       navigation: [{
