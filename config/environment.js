@@ -26,16 +26,6 @@ module.exports = function(environment) {
     blog: {
       title: 'Kenneth Larsen',
       description: 'Frontend & things',
-      coverImage: '/images/blog-cover.jpg',
-
-      navigation: [{
-        label: 'Home',
-        route: 'index'
-      }, {
-        label: 'Built by Chris Manson',
-        route: 'page',
-        id: 'chris-manson'
-      }]
     }
   };
 
@@ -61,6 +51,7 @@ module.exports = function(environment) {
 
   if (environment === 'production') {
     // here you can enable a production-specific feature
+    ENV.blog.host = 'https://kennethlarsen.org';
   }
 
   return ENV;
