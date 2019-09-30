@@ -15,13 +15,17 @@ excerpt: Learn how to distribute a Rust binary on NPM
 
 Recently I published a CLI tool called [baelte](https://github.com/kennethlarsen/baelte). It's written in Rust, and it's aimed at frontend developers who make applications using Svelte. I wanted to write it in Rust as a learning project but also to utilize the performance benefits which Rust provides over Node. 
 
-When it came to building and releasing it, I was without a clue on how to do it. It seemed that I could push it to Cargo, but to me, that was not a good solution. First of all, Cargo seems like a registry for packages used by other Rust packages and not for user faced applications. Secondly, my target group most likely haven't installed Rust and doesn't know what Cargo is. I don't think they should need to know about an entirely different ecosystem to install my tool. Since they are frontend developers, the tool would need to be installable via `npm install`.
+When it came to building and releasing it, I was without a clue on how to do it. It seemed that I could push it to Cargo, but to me, that was not a good solution. 
+
+First of all, Cargo seems like a registry for packages used by other Rust packages and not for user facing applications. 
+
+Secondly, my target group most likely haven't installed Rust and doesn't know what Cargo is. I don't think they should need to know about an entirely different ecosystem to install my tool. Since they are frontend developers, the tool would need to be installable via `npm install`.
 
 But how can I ship a Rust tool on NPM? Let's find out!
 
 ## Building
 
-Once my tool was ready to be build and shipped, I looked at what my options were. I wanted something that could run automatically from Github so I shouldn't spend too much time on building locally for several operating systems.
+Once my tool was ready to be build and shipped, I looked at what my options were. I wanted something that could be automatically triggered on Github and I did not want to spend too much time on building locally for several operating systems.
 
 Thankfully, there is a project called [trust](https://github.com/japaric/trust) that saved my day. In the trust repository, they have build configurations ready for you to copy and paste. They make Travis build and test for several operating systems when you create a pull request in your repository.
 
@@ -34,12 +38,12 @@ curl -LSfs https://japaric.github.io/trust/install.sh | \
     sh -s -- --git kennethlarsen/baelte
 ```
 
-While this is great, then I still don't want my users to do this since this is out of their usual context.
+This will detect the user's operating system and fetching the related binary. While this is great, I still don't want my users to do this since this is out of their usual context.
 
 ## Installing via NPM
 Frontend developers expect packages and tools to be installable with `npm install`. Since my tool is written in Rust and not JavaScript that makes things difficult. 
 
-I decided to create a JavaScript which triggers the install script previously mentioned:
+I decided to create a JavaScript file which triggers the install script previously mentioned:
 
 ```js
 let exec = require('child_process').exec;
