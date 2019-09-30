@@ -10,6 +10,7 @@ authors:
 date: Mon Sep 30 2019 20:31:28 GMT+0200 (Central European Summer Time)
 tags:
   - learning-rust
+excerpt: Learn how to distribute a Rust binary on NPM
 ---
 
 Recently I published a CLI tool called [baelte](https://github.com/kennethlarsen/baelte). It's written in Rust, and it's aimed at frontend developers who make applications using Svelte. I wanted to write it in Rust as a learning project but also to utilize the performance benefits which Rust provides over Node. 
@@ -33,13 +34,12 @@ curl -LSfs https://japaric.github.io/trust/install.sh | \
     sh -s -- --git kennethlarsen/baelte
 ```
 
-While this is great, then I still don't want my users to do this since this is out of their normal context.
+While this is great, then I still don't want my users to do this since this is out of their usual context.
 
 ## Installing via NPM
-https://github.com/kennethlarsen/baelte-npm
 Frontend developers expect packages and tools to be installable with `npm install`. Since my tool is written in Rust and not JavaScript that makes things difficult. 
 
-I decided to create a JavaScript which execudes the install script previously mentioned:
+I decided to create a JavaScript which triggers the install script previously mentioned:
 
 ```js
 let exec = require('child_process').exec;
