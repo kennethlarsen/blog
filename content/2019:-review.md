@@ -1,5 +1,5 @@
 ---
-title: 2019: Review
+title: 2019 - Review
 image:
 imageMeta:
   attribution:
@@ -31,7 +31,7 @@ I am still going to show up in 2020 and I hope you will too.
 
 ## Changing Roles
 
-2019 was also the year where I started transitioning from a developer role into a manager role. This has been a big relief for me. I thrive way more as an engineering manager than I did as a senior developer. To be honest, I was very close to burning out with development and I think the jump away from coding all day long has allowed me to breathe again. I still code and I still love to code, but for the sake of my mental well-being, I do not think I can stay in a full-time developer role anymore. I feel so privileged that I got the opportunity to grow into a new role.
+2019 was also the year where I started transitioning from a developer role into a manager role. This has been a big relief for me. I thrive way more as an engineering manager than I did as a senior developer. To be honest, I was very close to burning out with being a developer and I think the jump away from coding all day long has allowed me to breathe again. I still code and I still love to code, but for the sake of my mental well-being, I do not think I can stay in a full-time developer role anymore. I feel so privileged that I got the opportunity to grow into a new role.
 
 ## Moving to Germany
 
