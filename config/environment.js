@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = function(environment) {
+module.exports = function (environment) {
   let ENV = {
     modulePrefix: 'kennethlarsenorg',
     environment,
@@ -25,8 +25,20 @@ module.exports = function(environment) {
 
     blog: {
       title: 'Kenneth Larsen',
-      description: 'Frontend & things',
-    }
+      description: 'Building Things',
+    },
+    metricsAdapters: [
+      {
+        name: 'GoogleAnalytics',
+        environments: ['production'],
+        config: {
+          id: 'UA-155750598-1',
+          set: {
+            hostname: 'kennethlarsen.org',
+          }
+        }
+      },
+    ],
   };
 
   if (environment === 'development') {
