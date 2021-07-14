@@ -13,22 +13,22 @@ tags:
 excerpt: A very common mistake is to assume that once your team is delivering features then your work is done. Teams are never in finished or in a constant state but rather something living and ever-changing.
 ---
 
-A very common mistake is to assume that once your team is delivering features then your work is done. Teams are never in finished or constant state but rather something living and ever-changing.
+Dealing with team changes can be very frustrating. Sometimes, it leads to a lack of delivery, decreased team mood, or even people quitting. There are a few things to be especially aware of when your team is going through change. Being open-minded to these frameworks can make a difference.
 
-There are many events that can cause a change in the team dynamics, productivity or mood:
+A widespread mistake is to assume that your work is done once your team is delivering features. Teams are never in a finished or constant state but rather something living and ever-changing.
+Many events can cause a change in the team dynamics, productivity or mood:
 
 - New people joining the team
 - People leaving the team or the company
 - Changing priorities
-- Real world events such as the Corona pandemic
+- Real-world events such as the Corona pandemic
 
-Thankfully, there are also great frameworks to help you understand where your team currently is and how to help them move towards becoming healthy and productive team:
+Thankfully, there are also great frameworks to help you understand where your team currently is and how to help them move towards becoming a healthy and productive team:
 
 - [Tuckman's stages of group development](https://en.wikipedia.org/wiki/Tuckman%27s_stages_of_group_development#Group_development)
 - [Four stages of a team](https://lethain.com/durably-excellent-teams/)
 
-To set your team up for success it’s important to be aware of the fact that team changes require changes in expectations as well.
-Changes to a team whether it is about changing scope or team members should come with a change in expectations equal to the team change. This provides the much needed space to get back on track to becoming a productive team.
+To set up your team for success, you need to match the team changes with a change in expectations. Whether it is about changing the scope or team members, changes to a team should change expectations equal to the team change. This provides the much-needed space to get back on track to becoming a productive team.
 
 ---
 
