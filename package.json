@@ -45,7 +45,7 @@
     "ember-resolver": "^5.3.0",
     "ember-source": "~3.15.0",
     "empress-blog": "^1.7.2",
-    "empress-blog-kennethlarsen-template": "kennethlarsen/empress-blog-kennethlarsen-template#41a1502",
+    "empress-blog-kennethlarsen-template": "kennethlarsen/empress-blog-kennethlarsen-template#93b68b3",
     "eslint-plugin-ember": "^7.1.0",
     "eslint-plugin-node": "^10.0.0",
     "loader.js": "^4.7.0",
