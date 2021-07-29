@@ -47,7 +47,7 @@
     "empress-blog": "^1.7.2",
     "empress-blog-kennethlarsen-template": "kennethlarsen/empress-blog-kennethlarsen-template#93b68b3",
     "eslint-plugin-ember": "^7.1.0",
-    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-node": "^11.1.0",
     "loader.js": "^4.7.0",
     "prember": "^1.0.3",
     "qunit-dom": "^0.9.0"
